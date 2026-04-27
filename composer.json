@@ -5,12 +5,21 @@
   "require": {
     "php": ">=8.0"
   },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
   "autoload": {
     "psr-4": {
       "RioSlum\\HiringTest\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "RioSlum\\HiringTest\\Tests\\": "tests/"
+    }
+  },
   "scripts": {
-    "import": "php import.php"
+    "import": "php import.php",
+    "test": "phpunit"
   }
 }

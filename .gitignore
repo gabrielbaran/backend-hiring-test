@@ -1,0 +1,6 @@
+/vendor/
+composer.lock
+.phpunit.result.cache
+/tests/fixtures/test-output.json
+/tests/fixtures/test-contacts.json
+.DS_Store
